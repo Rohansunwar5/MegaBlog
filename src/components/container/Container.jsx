@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Container ({children}) {
+function Container ({children}) { // containers accepts properties as a children 
   return (
     <div className='w-full max-w-7xl mx-auto px-4'>
       {children}
@@ -9,3 +9,4 @@ function Container ({children}) {
 }
 
 export default Container
+// 

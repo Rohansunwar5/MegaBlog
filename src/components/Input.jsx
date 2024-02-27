@@ -27,3 +27,10 @@ const Input = React.forwardRef(function Input({
 })
 
 export default Input
+
+// what is ref and how it's work ?
+// Ans) when we write const myRef = useRef() , myRef is been intialize with object having  property current and having default value undefined. so myRef = { current: undefined }
+
+// we provide ref to it when we write something like this <input ref={ myref } type="text" />
+
+// here myref.current will have reference to the input DOM element so that we can manipulate it whenever neccessary.
