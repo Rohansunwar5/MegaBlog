@@ -5,7 +5,7 @@ import { login } from '../store/authSlice'
 import {Button, Input, Logo} from './index'
 import { useDispatch } from 'react-redux'
 import {useForm} from 'react-hook-form'
-
+ 
 const Signup = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
